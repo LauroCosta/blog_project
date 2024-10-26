@@ -1,0 +1,63 @@
+/* style.css */
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #444;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.post h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.post p {
+    line-height: 1.6;
+}
+
+.post .tags {
+    font-size: 0.9em;
+    color: #777;
+}
+
+.tags-list, .posts-list {
+    list-style: none;
+    padding: 0;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-right: 5px;
+    font-size: 0.85em;
+}
